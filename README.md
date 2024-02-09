@@ -71,3 +71,14 @@ Run the generated _JAR_ file
     java -jar build/libs/sus.jar
 
 Please make sure to also keep the `/tools` folder in the root folder of the project!
+
+## Showcase of Analytical Findings Stored in a PDF
+
+*Example of analysis summmary inside PDF*
+![Project Flowchart](./doc/PdfExample1.png)
+
+*Example of found permissions list inside PDF*
+![Project Flowchart](./doc/PdfExample2.png)
+
+*Example of found dangerous pattern Inside PDF*
+![Project Flowchart](./doc/PdfExample3.png)
