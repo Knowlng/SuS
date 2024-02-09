@@ -1,0 +1,1368 @@
+{
+    "android.permission.ACCESS_ALL_DOWNLOADS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access all downloads."
+    },
+    "android.permission.ACCESS_BLUETOOTH_SHARE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access Bluetooth sharing."
+    },
+    "android.permission.ACCESS_CACHE_FILESYSTEM": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access the cache filesystem."
+    },
+    "android.permission.ACCESS_CHECKIN_PROPERTIES": {
+        "riskLevel": "Normal ",
+        "description": "This permission allows access to check-in properties."
+    },
+    "android.permission.ACCESS_CONTENT_PROVIDERS_EXTERNALLY": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access content providers externally."
+    },
+    "android.permission.ACCOUNT_MANAGER": {
+        "riskLevel": "Normal",
+        "description": "This permission allows access to account management."
+    },
+    "android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to use any codec for playback."
+    },
+    "android.permission.ACCESS_NETWORK_STATE": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to access the network state."
+    },
+    "android.permission.ACCESS_DOWNLOAD_MANAGER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access the download manager."
+    },
+    "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access advanced features of the download manager."
+    },
+    "android.permission.ACCESS_DRM_CERTIFICATES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access DRM certificates."
+    },
+    "android.permission.ACCESS_EPHEMERAL_APPS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access ephemeral apps."
+    },
+    "android.permission.ACCESS_FM_RADIO": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access the FM radio."
+    },
+    "android.permission.ACCESS_INPUT_FLINGER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access input flinger."
+    },
+    "android.permission.ACCESS_KEYGUARD_SECURE_STORAGE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access keyguard secure storage."
+    },
+    "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to access extra location provider commands."
+    },
+    "android.permission.ACCESS_MOCK_LOCATION": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to create mock location providers for testing."
+    },
+    "android.permission.ACCESS_MTP": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access the MTP content."
+    },
+    "android.permission.ACCESS_NETWORK_CONDITIONS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access information about network conditions."
+    },
+    "android.permission.ACCESS_NOTIFICATIONS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access notifications."
+    },
+    "android.permission.ACCESS_NOTIFICATION_POLICY": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to access notification policies."
+    },
+    "android.permission.ACCESS_PDB_STATE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access the PDB state."
+    },
+    "android.permission.ACCESS_SURFACE_FLINGER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to interact with the surface flinger."
+    },
+    "android.permission.ACCESS_VOICE_INTERACTION_SERVICE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access the voice interaction service."
+    },
+    "android.permission.ACCESS_VR_MANAGER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access the VR manager."
+    },
+    "android.permission.ACCESS_WIFI_STATE": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to view Wi-Fi connections."
+    },
+    "android.permission.ACCESS_WIMAX_STATE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to determine the state of WiMAX."
+    },
+    "android.permission.BLUETOOTH": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to view and connect to paired Bluetooth devices."
+    },
+    "android.permission.BLUETOOTH_ADMIN": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to configure and connect to Bluetooth devices."
+    },
+    "android.permission.BLUETOOTH_MAP": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access Bluetooth MAP communication."
+    },
+    "android.permission.BLUETOOTH_PRIVILEGED": {
+        "riskLevel": " ",
+        "description": "This permission provides privileged access to Bluetooth services."
+    },
+    "android.permission.BLUETOOTH_STACK": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access the Bluetooth stack."
+    },
+    "android.permission.BRICK": {
+        "riskLevel": "High",
+        "description": "This permission can force the device into a non-functional state."
+    },
+    "android.permission.BROADCAST_CALLLOG_INFO": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to broadcast call log information."
+    },
+    "android.permission.BROADCAST_NETWORK_PRIVILEGED": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to send privileged network broadcasts."
+    },
+    "android.permission.BROADCAST_RADIO_AIRPLANE_MODE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to control the airplane mode setting."
+    },
+    "android.permission.BROADCAST_SCORE_NETWORKS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to broadcast scoring of networks."
+    },
+    "android.permission.BROADCAST_SMS": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to broadcast SMS receipt data."
+    },
+    "android.permission.BROADCAST_STICKY": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to send sticky broadcasts."
+    },
+    "android.permission.BROADCAST_WAP_PUSH": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to broadcast WAP PUSH receipt data."
+    },
+    "android.permission.CALL_PRIVILEGED": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to initiate a phone call without user confirmation."
+    },
+    "android.permission.CAMERA": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to use the camera to take pictures and videos."
+    },
+    "android.permission.CAMERA_DISABLE_TRANSMIT_LED": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to disable the camera's LED indicator."
+    },
+    "android.permission.CAMERA_SEND_SYSTEM_EVENTS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to send system-level events."
+    },
+    "android.permission.CAPTURE_AUDIO_HOTWORD": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to capture audio for hotword detection."
+    },
+    "android.permission.CAPTURE_AUDIO_OUTPUT": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to record audio."
+    },
+    "android.permission.CAPTURE_SECURE_VIDEO_OUTPUT": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to record secure video output."
+    },
+    "android.permission.CAPTURE_TV_INPUT": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to capture TV input."
+    },
+    "android.permission.CAPTURE_VIDEO_OUTPUT": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to record video."
+    },
+    "android.permission.CARRIER_FILTER_SMS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to filter SMS messages."
+    },
+    "android.permission.CHANGE_APP_IDLE_STATE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to change idle state settings."
+    },
+    "android.permission.CHANGE_BACKGROUND_DATA_SETTING": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to change background data usage settings."
+    },
+    "android.permission.CHANGE_COMPONENT_ENABLED_STATE": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to enable or disable app components."
+    },
+    "android.permission.CHANGE_CONFIGURATION": {
+        "riskLevel": "Signature",
+        "description": "This permission allows the app to change the current configuration, such as locale."
+    },
+    "android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to modify the whitelist of apps in idle mode."
+    },
+    "android.permission.CHANGE_NETWORK_STATE": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to change network connectivity."
+    },
+    "android.permission.CHANGE_OVERLAY_PACKAGES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to change which apps can appear on top of other apps."
+    },
+    "android.permission.CHANGE_WIFI_MULTICAST_STATE": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to enter Wi-Fi Multicast mode."
+    },
+    "android.permission.CHANGE_WIFI_STATE": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to connect to and disconnect from Wi-Fi access points."
+    },
+    "android.permission.CHANGE_WIMAX_STATE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to change the state of WiMAX connectivity."
+    },
+    "android.permission.CLEAR_APP_CACHE": {
+        "riskLevel": "Signature",
+        "description": "This permission allows the app to clear all the caches of the applications installed on the device."
+    },
+    "android.permission.CLEAR_APP_GRANTED_URI_PERMISSIONS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to revoke granted Uri permissions."
+    },
+    "android.permission.CLEAR_APP_USER_DATA": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to clear user data."
+    },
+    "android.permission.CONFIGURE_DISPLAY_COLOR_MODE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to configure the display's color mode."
+    },
+    "android.permission.CONFIGURE_WIFI_DISPLAY": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to configure Wi-Fi displays."
+    },
+    "android.permission.CONFIRM_FULL_BACKUP": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to initiate a full backup."
+    },
+    "android.permission.CONNECTIVITY_INTERNAL": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access internal connectivity functions."
+    },
+    "android.permission.CONTROL_KEYGUARD": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to control keyguard."
+    },
+    "android.permission.CONTROL_LOCATION_UPDATES": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to control location updates."
+    },
+    "android.permission.CONTROL_VPN": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to control the VPN."
+    },
+    "android.permission.CONTROL_WIFI_DISPLAY": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to control Wi-Fi display connections."
+    },
+    "android.permission.COPY_PROTECTED_DATA": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to copy protected data."
+    },
+    "android.permission.CREATE_USERS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to create users on the device."
+    },
+    "android.permission.CRYPT_KEEPER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to interact with the encryption process."
+    },
+    "android.permission.DELETE_CACHE_FILES": {
+        "riskLevel": "Signature",
+        "description": "This permission allows the app to delete cache files."
+    },
+    "android.permission.DELETE_PACKAGES": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to delete apps."
+    },
+    "android.permission.DIAGNOSTIC": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to RW to any resource owned by the diag group."
+    },
+    "android.permission.DIAGNOSTIC_SECURE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to perform secure diagnostic actions."
+    },
+    "android.permission.DISABLE_KEYGUARD": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to disable the keyguard."
+    },
+    "android.permission.DISPATCH_NFC_MESSAGE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to dispatch NFC messages."
+    },
+    "android.permission.DUMP": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to retrieve system internal state."
+    },
+    "android.permission.DVB_DEVICE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access DVB devices."
+    },
+    "android.permission.EXPAND_STATUS_BAR": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to expand or collapse the status bar."
+    },
+    "android.permission.FACTORY_TEST": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to run in factory test mode."
+    },
+    "android.permission.FILTER_EVENTS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to listen for and filter events."
+    },
+    "android.permission.FLASHLIGHT": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to control the flashlight."
+    },
+    "android.permission.FORCE_BACK": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to force another app to go into the background."
+    },
+    "android.permission.FORCE_STOP_PACKAGES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to force stop other apps."
+    },
+    "android.permission.FOREGROUND_SERVICE": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to use foreground services."
+    },
+    "android.permission.FRAME_STATS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to collect frame statistics."
+    },
+    "android.permission.FREEZE_SCREEN": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to freeze screen updates."
+    },
+    "android.permission.GET_ACCOUNTS": {
+        "riskLevel": "High",
+        "description": "This permission allows access to the list of accounts in the Accounts Service."
+    },
+    "android.permission.GET_ACCOUNTS_PRIVILEGED": {
+        "riskLevel": "Signature",
+        "description": "This permission allows access to the list of accounts with additional details."
+    },
+    "android.permission.GET_APP_OPS_STATS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to retrieve app operations statistics."
+    },
+    "android.permission.GET_APP_GRANTED_URI_PERMISSIONS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to get the list of granted Uri permissions."
+    },
+    "android.permission.GET_DETAILED_TASKS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to get detailed information about recently running tasks."
+    },
+    "android.permission.GET_INTENT_SENDER_INTENT": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to retrieve the original intent from an IntentSender."
+    },
+    "android.permission.GET_PACKAGE_IMPORTANCE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to know the importance of the app's process."
+    },
+    "android.permission.GET_PACKAGE_SIZE": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to find out the space used by any package."
+    },
+    "android.permission.GET_PASSWORD": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to retrieve the password for any private key stored in the Android keystore."
+    },
+    "android.permission.GET_PROCESS_STATE_AND_OOM_SCORE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to retrieve any process's state and OOM score."
+    },
+    "android.permission.GET_TASKS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to retrieve information about currently and recently running tasks."
+    },
+    "android.permission.GET_TOP_ACTIVITY_INFO": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to retrieve information about the currently top activity."
+    },
+    "android.permission.GET_USAGE_STATS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to retrieve device usage statistics."
+    },
+    "android.permission.GET_VOICEMAIL": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access the voicemail system."
+    },
+    "android.permission.GLOBAL_SEARCH": {
+        "riskLevel": "Signature",
+        "description": "This permission allows the app to use the global search system."
+    },
+    "android.permission.GLOBAL_SEARCH_CONTROL": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to control the global search system."
+    },
+    "android.permission.GRANT_RUNTIME_PERMISSIONS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to grant runtime permissions."
+    },
+    "android.permission.HARDWARE_TEST": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to control hardware peripherals."
+    },
+    "android.permission.HDMI_CEC": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to interact with HDMI devices."
+    },
+    "android.permission.INJECT_EVENTS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to inject user events (keys, touch, trackball) into the event stream."
+    },
+    "android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to grant runtime permissions to installed apps."
+    },
+    "android.permission.INSTALL_LOCATION_PROVIDER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to install a location provider."
+    },
+    "android.permission.INSTALL_PACKAGES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to install new or update existing apps."
+    },
+    "android.permission.INSTALL_SHORTCUT": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to install a shortcut in the Launcher."
+    },
+    "android.permission.INTENT_FILTER_VERIFICATION_AGENT": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to verify intent filters."
+    },
+    "android.permission.INTERACT_ACROSS_PROFILES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to interact across different user profiles."
+    },
+    "android.permission.INTERACT_ACROSS_USERS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to interact across users."
+    },
+    "android.permission.INTERACT_ACROSS_USERS_FULL": {
+        "riskLevel": "High",
+        "description": "This permission allows all possible interactions across users."
+    },
+    "android.permission.INTERNAL_SYSTEM_WINDOW": {
+        "riskLevel": "High",
+        "description": "This permission allows the creation of windows that are intended to be used by the internal system user interface."
+    },
+    "android.permission.INTERNET": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to open network sockets."
+    },
+    "android.permission.INVOKE_CARRIER_SETUP": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to invoke an activity to set up a new carrier."
+    },
+    "android.permission.KILL_BACKGROUND_PROCESSES": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to kill background processes."
+    },
+    "android.permission.LAUNCH_TRAMPOLINE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to launch activities from history or recents."
+    },
+    "android.permission.LOADER_USAGE_STATS": {
+        "riskLevel": "Signature",
+        "description": "This permission allows the app to monitor and report loader usage statistics."
+    },
+    "android.permission.LOCAL_MAC_ADDRESS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to get the local MAC address."
+    },
+    "android.permission.LOCATION_HARDWARE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to use location features in hardware."
+    },
+    "android.permission.LOOP_RADIO": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to loop radio."
+    },
+    "android.permission.MANAGE_ACTIVITY_STACKS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to add or remove tasks and activities to and from the system's task stacks."
+    },
+    "android.permission.MANAGE_APP_OPS_MODES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage app operations modes."
+    },
+    "android.permission.MANAGE_APP_OPS_RESTRICTIONS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage app operations restrictions."
+    },
+    "android.permission.MANAGE_APP_TOKENS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage create, clone, and remove app tokens."
+    },
+    "android.permission.MANAGE_AUDIO_POLICY": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to register and unregister audio policy configurations."
+    },
+    "android.permission.MANAGE_AUTO_FILL": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage settings and policies for the Auto-fill framework."
+    },
+    "android.permission.MANAGE_BIOMETRIC": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage biometric hardware."
+    },
+    "android.permission.MANAGE_BLUETOOTH_WHEN_WIRELESS_CONSENT": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage Bluetooth settings when user consent is not given."
+    },
+    "android.permission.MANAGE_CA_CERTIFICATES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to install and remove CA certificates."
+    },
+    "android.permission.MANAGE_CAMERA": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage camera resources."
+    },
+    "android.permission.MANAGE_CARRIER_OEM_UNLOCK_STATE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage the carrier OEM unlock state."
+    },
+    "android.permission.MANAGE_COMPANION_DEVICES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage companion devices."
+    },
+    "android.permission.MANAGE_CONTENT_CAPTURE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage settings and policies for the content capture framework."
+    },
+    "android.permission.MANAGE_CREDENTIALS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage authentication credentials."
+    },
+    "android.permission.MANAGE_DEVICE_ADMINS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage the list of active device administrators."
+    },
+    "android.permission.MANAGE_DOCUMENTS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage document storage."
+    },
+    "android.permission.MANAGE_EXTERNAL_STORAGE": {
+        "riskLevel": "Signature",
+        "description": "This permission allows the app to manage access to external storage."
+    },
+    "android.permission.MANAGE_FACTORY_RESET_PROTECTION": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage factory reset protection."
+    },
+    "android.permission.MANAGE_FINGERPRINT": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage fingerprint hardware."
+    },
+    "android.permission.MANAGE_IPSEC_TUNNELS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage IPsec tunnels."
+    },
+    "android.permission.MANAGE_LOWPAN_INTERFACES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage LowPAN interfaces."
+    },
+    "android.permission.MANAGE_MEDIA": {
+        "riskLevel": "Signature",
+        "description": "This permission allows the app to manage media on behalf of an active administrator."
+    },
+    "android.permission.MANAGE_NETWORK_POLICY": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage network policies."
+    },
+    "android.permission.MANAGE_NOTIFICATIONS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage notifications."
+    },
+    "android.permission.MANAGE_OWN_CALLS": {
+        "riskLevel": "Signature",
+        "description": "This permission allows the app to manage its own phone calls."
+    },
+    "android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage profile and device owners."
+    },
+    "android.permission.MANAGE_ROLE_HOLDERS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage role holders."
+    },
+    "android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage scoped access directory permissions."
+    },
+    "android.permission.MANAGE_SENSOR_PRIVACY": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage sensor privacy settings."
+    },
+    "android.permission.MANAGE_SESSIONS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage sessions on behalf of apps."
+    },
+    "android.permission.MANAGE_SOUND_TRIGGER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage sound trigger detection."
+    },
+    "android.permission.MANAGE_SUBSCRIPTION_PLANS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage subscription plans."
+    },
+    "android.permission.MANAGE_USB": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage preferences and permissions for USB devices."
+    },
+    "android.permission.MANAGE_USER_OEM_UNLOCK_STATE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage the user OEM unlock state."
+    },
+    "android.permission.MANAGE_USERS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage users."
+    },
+    "android.permission.MANAGE_VOICE_KEYPHRASES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage voice keyphrases."
+    },
+    "android.permission.MANAGE_WIFI_STACK_CLIENT_MODE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage Wi-Fi in client mode."
+    },
+    "android.permission.MANAGE_WIRED_ACCESSORY": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage wired accessory settings."
+    },
+    "android.permission.MASTER_CLEAR": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to perform a factory reset."
+    },
+    "android.permission.MEDIA_CONTENT_CONTROL": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to control media playback."
+    },
+    "android.permission.MODIFY_APPWIDGET_BIND_PERMISSIONS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to change permissions for all AppWidget bind targets."
+    },
+    "android.permission.MODIFY_AUDIO_ROUTING": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to modify audio routing."
+    },
+    "android.permission.MODIFY_AUDIO_SETTINGS": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to modify global audio settings."
+    },
+    "android.permission.MODIFY_DAY_NIGHT_MODE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to modify day/night mode settings."
+    },
+    "android.permission.MODIFY_NETWORK_ACCOUNTING": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to modify network accounting rules."
+    },
+    "android.permission.MODIFY_PARENTAL_CONTROLS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to modify parental control settings."
+    },
+    "android.permission.MODIFY_PHONE_STATE": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to control the phone features of the device."
+    },
+    "android.permission.MODIFY_THEME": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to modify the system theme."
+    },
+    "android.permission.MOUNT_FORMAT_FILESYSTEMS": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to format removable storage."
+    },
+    "android.permission.MOUNT_UNMOUNT_FILESYSTEMS": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to mount and unmount file systems for removable storage."
+    },
+    "android.permission.MOVE_PACKAGE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to move package resources from internal to external media and vice versa."
+    },
+    "android.permission.NETWORK_BYPASS_PRIVATE_DNS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to bypass private DNS."
+    },
+    "android.permission.NETWORK_CARRIER_PROVISIONING": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to carrier provision the device."
+    },
+    "android.permission.NETWORK_FACTORY": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to create network connections."
+    },
+    "android.permission.NETWORK_MANAGE_POLICY": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage network policy rules."
+    },
+    "android.permission.NETWORK_SETTINGS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to change network settings."
+    },
+    "android.permission.NETWORK_SIGNAL_STRENGTH_WAKEUP": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to wake up the device based on the network signal strength."
+    },
+    "android.permission.NETWORK_STACK": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to directly access the network stack."
+    },
+    "android.permission.NETWORK_STATS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to request detailed statistics on network usage."
+    },
+    "android.permission.NETWORK_TUNNELING_SERVICE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to use the network tunneling service."
+    },
+    "android.permission.NEW_KEYGUARD_UNLOCK": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to create new methods for unlocking the keyguard."
+    },
+    "android.permission.NFC": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to communicate with Near Field Communication (NFC) tags, cards, and readers."
+    },
+    "android.permission.NFC_HANDOVER_STATUS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to receive notifications on the status of NFC handover transactions."
+    },
+    "android.permission.NFC_PREFERRED_PAYMENT_INFO": {
+        "riskLevel": "Normal ",
+        "description": "This permission allows the app to receive information about the user's preferred payment service for NFC."
+    },
+    "android.permission.NFC_TRANSACTION_EVENT": {
+        "riskLevel": "Normal ",
+        "description": "This permission allows the app to receive notifications of completed NFC transactions."
+    },
+    "android.permission.NOTIFY_PENDING_SYSTEM_UPDATE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to notify users about pending system updates."
+    },
+    "android.permission.OBSERVE_APP_USAGE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to observe the usage of other applications."
+    },
+    "android.permission.OBSERVE_GRANT_REVOKE_PERMISSIONS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to observe when permissions are granted or revoked."
+    },
+    "android.permission.OBSERVE_INPUT_EVENTS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to observe the input events of other apps."
+    },
+    "android.permission.OEM_UNLOCK_STATE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read or write the secure system settings."
+    },
+    "android.permission.OVERRIDE_WIFI_CONFIG": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to override Wi-Fi configuration settings."
+    },
+    "android.permission.PACKAGE_FULL_ACCESS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to fully access package resources."
+    },
+    "android.permission.PACKAGE_USAGE_STATS": {
+        "riskLevel": "Signature",
+        "description": "This permission allows the app to collect component usage statistics."
+    },
+    "android.permission.PACKET_KEEPALIVE_OFFLOAD": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to manage the packet keepalive offload."
+    },
+    "android.permission.PARCELABLE_WRITE_RETURN_VALUE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to return a value from a parcel."
+    },
+    "android.permission.PEEK_DROP_RESULT": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to peek at the drop result data from drag and drops."
+    },
+    "android.permission.PERFORM_CDMA_PROVISIONING": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to initiate a phone call without going through the Dialer user interface."
+    },
+    "android.permission.PERFORM_SIM_ACTIVATION": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to perform SIM activation."
+    },
+    "android.permission.PERSISTENT_ACTIVITY": {
+        "riskLevel": "High",
+        "description": "This permission allows the app's activities to persist across reboots."
+    },
+    "android.permission.PHONE_CALL_AUDIO": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access phone call audio."
+    },
+    "android.permission.PHONE_STATE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access the phone features of the device."
+    },
+    "android.permission.PKG_USAGE_STATS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to modify collected component usage statistics."
+    },
+    "android.permission.POWER_SAVER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to control the power saver."
+    },
+    "android.permission.PROCESS_OUTGOING_CALLS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to see the number being dialed during an outgoing call."
+    },
+    "android.permission.PROCESS_PHONE_ACCOUNT_REGISTRATION": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to process phone account registrations."
+    },
+    "android.permission.PROFILER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to initiate a phone call without going through the Dialer user interface."
+    },
+    "android.permission.PROJECT_MEDIA": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to project media content."
+    },
+    "android.permission.PROVIDE_RESOLVER_RANKER_SERVICE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to provide ranking information to the resolver."
+    },
+    "android.permission.PROVIDE_TRUST_AGENT": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to provide a trust agent."
+    },
+    "android.permission.QUERY_ALL_PACKAGES": {
+        "riskLevel": "Normal ",
+        "description": "This permission allows the app to query any normal app operations."
+    },
+    "android.permission.QUERY_DO_NOT_ASK_CREDENTIALS_ON_BOOT": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to query whether the user has been asked for credentials on boot."
+    },
+    "android.permission.QUERY_TIME_ZONE_RULES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to query the time zone rules."
+    },
+    "android.permission.READ_ACTIVE_EMERGENCY_SESSION": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read the currently active emergency session."
+    },
+    "android.permission.READ_APP_USAGE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read app usage statistics."
+    },
+    "android.permission.READ_BLOCKED_NUMBERS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read the blocked caller list."
+    },
+    "android.permission.READ_CALENDAR": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read the user's calendar data."
+    },
+    "android.permission.READ_CALL_LOG": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read the user's call log."
+    },
+    "android.permission.READ_CLIPBOARD_IN_BACKGROUND": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read the clipboard's content."
+    },
+    "android.permission.READ_CONTACTS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read the user's contacts data."
+    },
+    "android.permission.READ_CONTENT_RATING": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read content ratings."
+    },
+    "android.permission.READ_DEVICE_CONFIG": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read the device configuration settings."
+    },
+    "android.permission.READ_DREAM_STATE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read the dream state."
+    },
+    "android.permission.READ_EXTERNAL_STORAGE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read from external storage."
+    },
+    "android.permission.READ_FRAME_BUFFER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read the contents of the frame buffer."
+    },
+    "android.permission.READ_HISTORY_BOOKMARKS": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to read the browser's history and bookmarks."
+    },
+    "android.permission.READ_INPUT_STATE": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to read the state of all keyboards, mouses, and other input devices."
+    },
+    "android.permission.READ_INSTALL_SESSIONS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read information about active and past application installations."
+    },
+    "android.permission.READ_LOGS": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to read the low-level system log files."
+    },
+    "android.permission.READ_MEDIA_AUDIO": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read any audio files stored on internal or external storage."
+    },
+    "android.permission.READ_MEDIA_IMAGES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read any images stored on internal or external storage."
+    },
+    "android.permission.READ_MEDIA_VIDEO": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read any videos stored on internal or external storage."
+    },
+    "android.permission.READ_NETWORK_USAGE_HISTORY": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read historical network usage."
+    },
+    "android.permission.READ_PHONE_NUMBERS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read the device's phone number(s)."
+    },
+    "android.permission.READ_PHONE_STATE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access the phone features of the device."
+    },
+    "android.permission.READ_PRECISE_PHONE_STATE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access extra detailed information about the current state of the cellular network."
+    },
+    "android.permission.READ_PRIVILEGED_PHONE_STATE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access private details of the phone's state."
+    },
+    "android.permission.READ_PROFILE": {
+        "riskLevel": "Normal ",
+        "description": "This permission allows the app to read the user's personal profile data."
+    },
+    "android.permission.READ_SEARCH_INDEXABLES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read the search indexables."
+    },
+    "android.permission.READ_SMS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read SMS messages."
+    },
+    "android.permission.READ_SOCIAL_STREAM": {
+        "riskLevel": "Normal ",
+        "description": "This permission allows the app to read the user's social stream data."
+    },
+    "android.permission.READ_SYNC_SETTINGS": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to read the sync settings for an account."
+    },
+    "android.permission.READ_SYNC_STATS": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to read the statistics of sync attempts."
+    },
+    "android.permission.READ_TELEPHONY_MESSAGES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read messages sent to the device's telephony apps."
+    },
+    "android.permission.READ_VOICEMAIL": {
+        "riskLevel": "Signature",
+        "description": "This permission allows the app to read voicemails in the system."
+    },
+    "android.permission.REAL_GET_TASKS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to retrieve information about currently and recently running tasks."
+    },
+    "android.permission.REBOOT": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to force the phone to reboot."
+    },
+    "android.permission.RECEIVE_BLUETOOTH_MAP": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to receive messages through the Bluetooth MAP profile."
+    },
+    "android.permission.RECEIVE_BOOT_COMPLETED": {
+        "riskLevel": "Normal ",
+        "description": "This permission allows the app to have itself started as soon as the system has finished booting."
+    },
+    "android.permission.RECEIVE_DATA_ACTIVITY_CHANGE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to be notified when the device data activity changes."
+    },
+    "android.permission.RECEIVE_EMERGENCY_BROADCAST": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to receive emergency broadcast messages."
+    },
+    "android.permission.RECEIVE_MMS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to receive and process MMS messages."
+    },
+    "android.permission.RECEIVE_SMS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to receive and process SMS messages."
+    },
+    "android.permission.RECEIVE_WAP_PUSH": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to receive and process WAP push messages."
+    },
+    "android.permission.RECORD_AUDIO": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to record audio."
+    },
+    "android.permission.RECOVERY": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to interact with the recovery system."
+    },
+    "android.permission.REGISTER_CALL_PROVIDER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to register a call provider."
+    },
+    "android.permission.REGISTER_CONNECTION_MANAGER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to register a connection manager."
+    },
+    "android.permission.REGISTER_SIM_SUBSCRIPTION": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to register a SIM card subscription."
+    },
+    "android.permission.REMOTE_AUDIO_PLAYBACK": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to control remote audio playback devices."
+    },
+    "android.permission.REMOVE_DRM_CERTIFICATES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to remove DRM certificates."
+    },
+    "android.permission.REMOVE_TASKS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to remove tasks."
+    },
+    "android.permission.REORDER_TASKS": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to change the Z-order of tasks."
+    },
+    "android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND": {
+        "riskLevel": "Normal ",
+        "description": "This permission allows the app's companion app to run in the background."
+    },
+    "android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND": {
+        "riskLevel": "Normal ",
+        "description": "This permission allows the app's companion app to use data in the background."
+    },
+    "android.permission.REQUEST_DELETE_PACKAGES": {
+        "riskLevel": "Normal ",
+        "description": "This permission allows the app to request the deletion of packages."
+    },
+    "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to request that it be exempt from certain battery optimizations."
+    },
+    "android.permission.REQUEST_INSTALL_PACKAGES": {
+        "riskLevel": "Signature",
+        "description": "This permission allows the app to request the installation of packages."
+    },
+    "android.permission.REQUEST_PASSWORD_COMPLEXITY": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to request a certain password complexity level."
+    },
+    "android.permission.RESTART_PACKAGES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to force other packages to restart."
+    },
+    "android.permission.RETRIEVE_WINDOW_CONTENT": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to retrieve the content of windows."
+    },
+    "android.permission.RETRIEVE_WINDOW_TOKEN": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to retrieve the tokens associated with windows."
+    },
+    "android.permission.REVOKE_RUNTIME_PERMISSIONS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to revoke runtime permissions."
+    },
+    "android.permission.SCHEDULE_EXACT_ALARM": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to schedule precise alarms, affecting battery life."
+    },
+    "android.permission.SEND_RESPOND_VIA_MESSAGE": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to send messages using the respond-via-message action."
+    },
+    "android.permission.SEND_SMS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to send SMS messages."
+    },
+    "android.permission.SEND_SMS_NO_CONFIRMATION": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to send SMS messages without user confirmation."
+    },
+    "android.permission.SERIAL_PORT": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access serial ports."
+    },
+    "android.permission.SET_ACTIVITY_WATCHER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to monitor and control how activities are started globally in the system."
+    },
+    "android.permission.SET_ALARM": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to broadcast an Intent to set an alarm for the user."
+    },
+    "android.permission.SET_ALWAYS_FINISH": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to control whether activities are immediately finished when put in the background."
+    },
+    "android.permission.SET_ANIMATION_SCALE": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to modify the global animation scaling factor."
+    },
+    "android.permission.SET_DEBUG_APP": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to turn on debugging for another app."
+    },
+    "android.permission.SET_DEFAULT_VOICE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to set the default voice for speech synthesis."
+    },
+    "android.permission.SET_PREFERRED_APPLICATIONS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to modify your preferred apps."
+    },
+    "android.permission.SET_PROCESS_LIMIT": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to set the maximum number of processes that can run."
+    },
+    "android.permission.SET_TIME": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to set the system time."
+    },
+    "android.permission.SET_TIME_ZONE": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to change the phone's time zone."
+    },
+    "android.permission.SET_VOLUME_KEY_LONG_PRESS_LISTENER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to set a listener to be called when the volume up or volume down key is long-pressed."
+    },
+    "android.permission.SET_WALLPAPER": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to set the system wallpaper."
+    },
+    "android.permission.SET_WALLPAPER_COMPONENT": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to specify a different component to use as the wallpaper."
+    },
+    "android.permission.SET_WALLPAPER_HINTS": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to set wallpaper size hints."
+    },
+    "android.permission.SIGNAL_PERSISTENT_PROCESSES": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to request that signal be sent to all persistent processes."
+    },
+    "android.permission.START_ACTIVITIES_FROM_BACKGROUND": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to start activities from the background."
+    },
+    "android.permission.START_TASKS_FROM_RECENTS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to start tasks from the recent task list."
+    },
+    "android.permission.STOP_APP_SWITCHES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to prevent the user from switching to another app."
+    },
+    "android.permission.STORAGE_INTERNAL": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to read and write the system's internal storage."
+    },
+    "android.permission.SUSPEND_APPS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to suspend other apps."
+    },
+    "android.permission.SYSTEM_ALERT_WINDOW": {
+        "riskLevel": "Signature",
+        "description": "This permission allows an app to create windows, shown on top of all other apps."
+    },
+    "android.permission.TEMPORARY_ENABLE_ACCESSIBILITY": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to temporarily enable accessibility features."
+    },
+    "android.permission.TRANSMIT_IR": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to use the device's infrared transmitter."
+    },
+    "android.permission.TRUST_LISTENER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to be informed of changes in trust for the device."
+    },
+    "android.permission.TV_INPUT_HARDWARE": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access TV input hardware."
+    },
+    "android.permission.TV_VIRTUAL_REMOTE_CONTROLLER": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to interact with a virtual remote controller for a television."
+    },
+    "android.permission.UNINSTALL_SHORTCUT": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to uninstall a shortcut from the launcher."
+    },
+    "android.permission.UPDATE_APP_OPS_STATS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to update or delete the usage statistics for operations."
+    },
+    "android.permission.UPDATE_DEVICE_STATS": {
+        "riskLevel": " ",
+        "description": "This permission allows the app to update device statistics."
+    },
+    "android.permission.UPDATE_LOCK": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to control the lock screen update."
+    },
+    "android.permission.UPDATE_LOCK_TASK_PACKAGES": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to update the list of packages that are allowed to run in lock task mode."
+    },
+    "android.permission.USE_BIOMETRIC": {
+        "riskLevel": "Normal ",
+        "description": "This permission allows the app to use device's biometric hardware."
+    },
+    "android.permission.USE_CREDENTIALS": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to request authentication tokens."
+    },
+    "android.permission.USE_FINGERPRINT": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to use the fingerprint hardware."
+    },
+    "android.permission.USE_FULL_SCREEN_INTENT": {
+        "riskLevel": "Normal ",
+        "description": "This permission allows the app to use full-screen intents."
+    },
+    "android.permission.USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER": {
+        "riskLevel": "Signature",
+        "description": "This permission allows the app to perform ICC authentication using the device's identifiers."
+    },
+    "android.permission.USE_SIP": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to use the SIP service to make/receive internet calls."
+    },
+    "android.permission.USER_ACTIVITY": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to report user activity."
+    },
+    "android.permission.VIBRATE": {
+        "riskLevel": "Normal",
+        "description": "This permission allows the app to control the vibrator."
+    },
+    "android.permission.VIEW_INSTANT_APPS": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to view information about the currently running instant apps."
+    },
+    "android.permission.VISUAL_VOICEMAIL": {
+        "riskLevel": "High",
+        "description": "This permission allows the app to access and interact with visual voicemail data."
+    },
+    "android.permission.WAKE_LOCK": {
+        "riskLevel": "Normal",
+        "description": "This permission allows using the PowerManager's WakeLocks to keep processor from sleeping or screen from dimming."
+    },
+    "android.permission.WRITE_APN_SETTINGS": {
+        "riskLevel": " ",
+        "description": "This permission allows applications to write the apn settings."
+    },
+    "android.permission.WRITE_CALENDAR": {
+        "riskLevel": "High",
+        "description": "This permission allows an application to write to the user's calendar data."
+    },
+    "android.permission.WRITE_CALL_LOG": {
+        "riskLevel": "High",
+        "description": "This permission allows an application to write (but not read) the user's call log data."
+    },
+    "android.permission.WRITE_CONTACTS": {
+        "riskLevel": "High",
+        "description": "This permission allows an application to write to the user's contacts data."
+    },
+    "android.permission.WRITE_EXTERNAL_STORAGE": {
+        "riskLevel": "High",
+        "description": "This permission allows an application to write to external storage."
+    },
+    "android.permission.WRITE_GSERVICES": {
+        "riskLevel": " ",
+        "description": "This permission allows an application to modify the Google services map."
+    },
+    "android.permission.WRITE_MEDIA_STORAGE": {
+        "riskLevel": "High",
+        "description": "This permission allows an application to write to external media storage."
+    },
+    "android.permission.WRITE_PROFILE": {
+        "riskLevel": "Normal ",
+        "description": "This permission allows an application to write (but not read) the user's personal profile data."
+    },
+    "android.permission.WRITE_SECURE_SETTINGS": {
+        "riskLevel": " ",
+        "description": "This permission allows an application to read or write the secure system settings."
+    },
+    "android.permission.WRITE_SETTINGS": {
+        "riskLevel": "High",
+        "description": "This permission allows an application to read or write the system settings."
+    },
+    "android.permission.WRITE_SMS": {
+        "riskLevel": "Normal ",
+        "description": "This permission allows an application to write SMS messages."
+    },
+    "android.permission.WRITE_SOCIAL_STREAM": {
+        "riskLevel": "Normal",
+        "description": "This permission allows an application to write (but not read) the user's social stream data."
+    },
+    "android.permission.WRITE_SYNC_SETTINGS": {
+        "riskLevel": "Normal",
+        "description": "This permission allows an application to write the sync settings."
+    },
+    "android.permission.WRITE_USER_DICTIONARY": {
+        "riskLevel": "Normal",
+        "description": "This permission allows an application to write to the user's dictionary."
+    }
+}
+
+

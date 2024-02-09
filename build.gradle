@@ -1,0 +1,87 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.diffplug.spotless' version '6.22.0'
+}
+
+version = '1.0';
+
+repositories {
+    mavenCentral() 
+    flatDir { 
+        dirs 'libs' 
+    }
+}
+
+testing {
+    suites{
+        integrationTest(JvmTestSuite){
+            dependencies{
+                implementation project()
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation 'org.slf4j:slf4j-nop:1.7.32'
+    implementation name: 'AXMLPrinter', ext: 'jar'
+    implementation group: 'org.benf', name: 'cfr', version: '0.152'
+    testImplementation('org.junit.jupiter:junit-jupiter:5.10.0') /* JUnit 5 */
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.github.javaparser:javaparser-core:3.25.5'
+    implementation 'org.apache.commons:commons-compress:1.21'
+    implementation 'org.commonmark:commonmark:0.18.0'
+    implementation 'com.openhtmltopdf:openhtmltopdf-pdfbox:1.0.9'
+    implementation 'commons-validator:commons-validator:1.7'
+    implementation 'guru.nidi:graphviz-java:0.18.1'
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.5'
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "failed", "skipped", "passed"
+        showStandardStreams true
+	    showExceptions true
+        exceptionFormat "FULL"
+        showCauses true
+        showStackTraces false
+	}
+}
+
+tasks.named('integrationTest') {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+        showStandardStreams false
+        showExceptions true
+        exceptionFormat "FULL"
+        showCauses true
+        showStackTraces false
+    }
+}
+
+jar {
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    manifest {
+        attributes 'Main-Class': application.mainClass
+    }
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE 
+}
+
+
+application {
+    mainClass = 'app.Main'
+}
+
+spotless {
+    java {
+        googleJavaFormat()
+        lineEndings 'UNIX'
+    }
+}
+compileJava.dependsOn('spotlessApply')
