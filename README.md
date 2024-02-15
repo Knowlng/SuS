@@ -1,8 +1,19 @@
 # SuS - Securing user Software
 
+Cross-platform `static analysis` software for analyzing Android Applications
+
+
 **This project was successfully completed through team collaboration during the Project-Based Learning course at Vilnius University.**
 
-Cross-platform `static analysis` software for analyzing Android Applications
+**Team members:**
+
+*Čepulis Nerijus*
+
+*Kabišaitytė Evelina*
+
+*Maciūnas Adrijanas Juozas*
+
+*Petkevičius Lukas*
 
 ## Project vision
 
